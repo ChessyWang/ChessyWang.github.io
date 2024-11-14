@@ -1,0 +1,62 @@
+.table-container {
+    margin-top: 40px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+
+    table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0 8px;
+        thead {
+            background-color: #fab47a;
+            height: 52px;
+            padding: 10px 15px;
+            th {
+                color: #ffffff;
+                font-size: 16px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+        }
+        tbody tr {
+            box-shadow: -1px 0 #c5c5c5, 1px 0 #c5c5c5;
+            background-color: rgb(238, 238, 238);
+            height: 80px;
+            td {
+                text-align: center;
+            }
+        }
+    }
+}
+
+.json-display {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.json-display span {
+    color: #d2691e;
+}
+
+.json-display .key {
+    color: #6a5acd;
+}
+
+.json-display .value {
+    color: #32cd32;
+}
+
+.json-display .quote {
+    color: #000;
+}
+
+.json-display .comma {
+    color: #000;
+}
